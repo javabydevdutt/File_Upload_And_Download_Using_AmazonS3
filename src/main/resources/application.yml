@@ -1,0 +1,20 @@
+#configure server port
+server:
+  port: 9090
+
+
+#configure Amazon S3 bucket details
+cloud:
+  aws:
+    credentials:
+      access-key: AKIAUB4MGTUHKWGJOFWP
+      secret-key: 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
+    region:
+      static: ap-south-1
+    stack:
+      auto: false
+
+
+application:
+  bucket:
+    name: uploadfiles3amazon
